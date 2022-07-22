@@ -1,0 +1,30 @@
+#The AutoRestart script and the AutoRestartConfig file must be in the
+#same folder for the configuration to be taken into account
+
+#Only fill in the DIRECTORY variable if the AutoRestart Script
+#and AutoRestartConfig file are not in the same folder as the jar file
+#Exemple: DIRECTORY=/home/server
+
+DIRECTORY=
+
+#Only fill in the JARFILE variable if there are more than one jarFile
+#in server directory
+#Exemple: JARFILE=server.jar
+
+JARFILE=
+
+#Only fill in the SCREENNAME variable if you want a custom name for
+#the screen
+#Exemple: SCREENNAME=server
+
+SCREENNAME=
+
+#Writte the jar file parameters in the variable PARAMETERS
+#Exemple: PARAMETERS=-Xms1G -Mmx4G
+
+PARAMETERS=-Xms1G -Mmx4G
+
+#Turn AUTORESTART variable to false if you don't want the server to
+#automaticly restart
+
+AUTORESTART=true
